@@ -22,7 +22,8 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--bg-color);
-  min-height: 100vh;
+  min-height: 90vh;
+  
 }
 
 img {
@@ -32,6 +33,7 @@ img {
 
 ul li {
   list-style: none;
+  font-size: 18px;
 }
 
 a {
@@ -41,6 +43,11 @@ a {
 button {
   background: none;
   border: none;
+}
+.logo{
+  font-size: 24px !important;
+  font-family:monospace;
+  color: var(--main-color) !important;
 }
 
 .circle span {
@@ -91,4 +98,11 @@ li .actives:hover {
 .row button:hover {
   background-color: var(--main-dark-color);
   color: var(--bg-color);
+}
+
+.main p,button {
+  font-size: 22px;
+}
+.main h1,h2{
+  font-size: 45px;
 }
